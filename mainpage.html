@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediConnect - mainpage</title>
+  <link rel="stylesheet" href="mainpage.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=Inter&family=Montserrat:ital@1&family=Poppins:wght@300&display=swap"
+    rel="stylesheet" />
+  <!-- remix icons  -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- start of navbar  -->
+  <nav class="navbar navbar-expand-lg  custom-navbar" style="background-color: rgba(206, 206, 203, 0.678);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img2/MC_Logo_Main 1.png" alt="LOGO" id="logoimg" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+      <div class="collapse navbar-collapse custom-navbar-links" id="navbarSupportedContent" style="margin-left: 200px;">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+          <li class="nav-item m-2">
+            <a class="nav-link active" aria-current="page" href="index.html" style="margin-left: 10px;">Home</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link active" aria-current="page" href="#spez">Find Doctors</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link active" aria-current="page" href="#review">Reviews</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link active" aria-current="page" href="#download">Download </a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link active" aria-current="page" href="#connect">Connect</a>
+          </li>
+        </ul>
+      </div>
+    
+      <div class="d-flex align-items-center custom-userbox">
+        <div class="user-box me-4">
+         <div class="btn btn-primary" style="margin-right: 10px;" onclick="window.location.href='login.php'" id="login">LOGIN</div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end of navbar  -->
+
+  <!-- start of parent-1  -->
+
+  <div class="container-fluid parent1">
+    <div class="container">
+      <!-- searchbar -->
+      <div class="container mt-4">
+        <div class="row justify-content-center">
+          <div class="col-md-9">
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1">
+                <i class="fas fa-magnifying-glass"></i>
+              </span>
+              <input type="text" class="form-control" placeholder="Search Doctors, Clinics, Hospitals...."
+                aria-label="Search" aria-describedby="basic-addon2" />
+              <button class="btn btn-outline-success"  onclick="window.location.href='login.php'" type="button" id="button-addon2" >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of searchbar  -->
+      <!-- image card inside parent-1-->
+      <div class="container custom-image-card">
+        <div class="content-child">
+          <!-- Your custom content goes here -->
+          <h1 class="display-5">Revolutionizing Healthcare</h1>
+          <p class="lead">
+            Join Mediconnect and experience a seamless healthcare journey.
+            From effortless appointment scheduling to secure transactions,
+            we're dedicated to connecting patients and healthcare
+            professionals for authentic and convenient healthcare.
+          </p>
+          <a href="#" class="btn btn-primary btn-lg" onclick="window.location.href='login.php'">Book Appointment Now.!</a>
+        </div>
+        <div class="image-child">
+          <img src="img2/MainPage_ImageCard-removebg-preview.png" alt="image" />
+        </div>
+      </div>
+      <!-- end of image card inside parent-1s-->
+    </div>
+  </div>
+  <!-- end of parent-1  -->
+
+  <!-- CARDS SECTION START  -->
+  <div class="container-fluid custom-cards" style="margin-top: 60px; margin-bottom: 60px;" >
+    <div class="mainbox">
+      <div class="card-box" id="card1">
+        <div class="img-box">
+          <img src="img2/mainPage-Doctor2.jpg"  alt="doccy" height="100%" width="100%" style="border-top-left-radius: 20px; border-top-right-radius: 20px;"/>        </div>
+        <div class="content-box" style="border: 1px solid grey; padding: 5px;"> 
+          <h5>Find Doctors Near You</h5>
+        <p>
+          Connect with experts through secure video consultations and get medical advises.
+        </p>
+        </div>
+      </div>
+      <div class="card-box" id="card2">
+        <div class="img-box">
+          <img src="img2/mainPage-Doctor3.png"  alt="doccy" height="100%" width="100%" style="border-top-left-radius: 20px; border-top-right-radius: 20px;"/>        </div>
+        <div class="content-box" style="border: 1px solid grey; padding: 5px;">
+          <h5>Book Appointments Easily</h5>
+        <p>
+          Schedule appointments effortlessly using our user-friendly booking system.       </p>
+        </div>
+      </div>
+      <div class="card-box" id="card3">
+        <div class="img-box">
+          <img src="img2/mainPage-Medicines.jpg"  alt="doccy" height="100%" width="100%" style="border-top-left-radius: 20px; border-top-right-radius: 20px;"/>        </div>
+        <div class="content-box" style="border: 1px solid grey; padding: 5px;">
+          <h5>Easy Medicines Delivery</h5>
+        <p>
+          Get your prescribed medications timely and safely delivered directly to your doorstep.</p>
+        </div>
+      </div>
+      <div class="card-box" id="card4">
+        <div class="img-box">
+          <img src="img2/mainPage-LabTest.jpg"  alt="doccy" height="100%" width="100%" style="border-top-left-radius: 20px; border-top-right-radius: 20px;"/>        </div>
+        <div class="content-box" style="border: 1px solid grey; padding: 5px;">
+          <h5>Instant Lab Results</h5>
+        <p>
+          Access your lab test results instantly and securely online with our expert guidance.
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPECIALITY SECTION START  -->
+  <section class="container-fluid spez" style="background-color: rgba(206, 206, 203, 0.719);" id="spez">
+    <div class="spez-1">Consult top doctors online for any health concern</div>
+    <div class="spez-2">Private online consultations with verified doctors in all specialists</div>
+    <div class="spez-3">
+
+      <div class="spez-card">
+        <div class="card-up d-flex justify-content-center align-items-center">
+          <img src="img2/acne.jpg" alt="acne" height="100%" style="border-radius: 50%; border: 2px solid black;">
+        </div>
+        <div class="card-mid">Acne, Pimple or Skin Issues?</div>
+        <div class="card-down d-flex justify-content-center align-items-center"><a href="login.php">CONSULT NOW</a></div>
+      </div>
+
+      <div class="spez-card">
+        <div class="card-up d-flex justify-content-center align-items-center">
+          <img src="img2/cold.jpg" alt="acne" height="100%" style="border-radius: 50%; border: 2px solid black;">
+        </div>
+        <div class="card-mid">Cold, Cough or Fever?</div>
+        <div class="card-down d-flex justify-content-center align-items-center"><a href="login.php">CONSULT NOW</a></div>
+      </div>
+
+      <div class="spez-card">
+        <div class="card-up d-flex justify-content-center align-items-center">
+          <img src="img2/back pain.png" alt="acne" height="100%" style="border-radius: 50%; border: 2px solid black;">
+        </div>
+        <div class="card-mid">Back Pain or Orthopaedic Issues?</div>
+        <div class="card-down d-flex justify-content-center align-items-center"><a href="login.php">CONSULT NOW</a></div>
+      </div>
+
+      <div class="spez-card">
+        <div class="card-up d-flex justify-content-center align-items-center">
+          <img src="img2/anxiety.jpg" alt="acne" height="100%" style="border-radius: 50%; border: 2px solid black;">
+        </div>
+        <div class="card-mid">Anxiety, Stress or Mental Health Issues?</div>
+        <div class="card-down d-flex justify-content-center align-items-center"><a href="login.php">CONSULT NOW</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEW SECTION START   -->
+  <section class="container-fluid review" id="review">
+    <div class="section__container review__container" id="Reviews">
+      <span><i class="ri-double-quotes-l"></i></span>
+      <div class="review__content">
+        <h4>USER REVIEW :</h4>
+        <p>
+          As a doctor, I can confidently say that MediConnect is
+          revolutionizing the healthcare industry with its innovative online
+          doctor appointment feature. What distinguishes MediConnect is its
+          steadfast dedication to ensuring the success and well-being of
+          users. The platform's tailored healthcare solutions, coupled with
+          the convenience of online appointment scheduling, highlight its
+          commitment to crafting medical plans that cater to the individual
+          needs of each patient. It's akin to having a personal healthcare
+          ally at your fingertips, empowering patients to achieve optimal
+          health outcomes and providing them with access to medical assistance
+          anytime, anywhere.
+        </p>
+        <div class="review__rating">
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-half-fill"></i></span>
+        </div>
+        <div class="review__footer">
+          <div class="review__member">
+            <img src="img2/member.jpg" alt="member" />
+            <div class="review__member__details">
+              <h4>John Doe</h4>
+              <p>Doctor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+  
+
+  <!-- APP DOWNLOAD SECTION -->
+  <section class="container-fluid appdnl" style="background-color: #f9f8fa;" id="download">
+    <div class="app-boxl">
+      <img src="img2/mediconnect app dnld img.jpg" alt="appimage" height="100%" width="100%" />
+    </div>
+    <div class="app-boxr">
+      <div class="app-b" id="b1">Download the MEDICONNECT app now..!!</div>
+      <div class="app-b" id="b2">
+        <p>
+          Access video consultation with India’s top doctors on the
+          MediConnect app. Connect with doctors online, available 24/7, from
+          the comfort of your home.
+        </p>
+      </div>
+      <div class="app-b" id="b3">Get the link to download the app on your system</div>
+      <div class="app-b" id="b4">
+        <div class="phone-container">
+          <div class="phone-code">+91</div>
+          <input type="tel" class="phone-input" placeholder="Enter phone number" />
+        </div>
+        <div class="btn-container">
+          <div class="btn btn-primary" onclick="showAlert()">Get SMS</div>
+        </div>
+      </div>
+
+      <script>
+        function showAlert() {
+            alert("App Development in Process..!!");
+        }
+        </script>
+
+      <div class="app-b" id="b5">
+        <img src="img2/googleplay.png" alt="gp" height="100%" style="margin-right: 20px;">
+        <img src="img2/appstore.png" alt="apple" height="90%">
+      </div>
+  </section>
+
+  <!-- FOOTER SECTION START  -->
+  <footer class="container-fluid custom-footer" id="connect">
+    <div class="container footer-top">
+      <div class="footer-box1 d-flex flex-column">
+        <div class="box1-top">
+          <img src="img2/MC_Logo_Main 1.png" alt="logo" />
+        </div>
+        <div class="box1-mid">
+          <p>
+            Take the first step towards a healthier and stronger you with
+            MediConnect's exceptional solution for seamless online doctor
+            appointments. <br />
+            Let's achieve and conquer together!
+          </p>
+        </div>
+        <div class="box1-bottom footer__socials">
+          <a href="https://www.instagram.com/iam_sami_choudhari/"><i class="ri-instagram-line"></i></a>
+          <a href="https://twitter.com/iam_Moh_Sami"><i class="ri-twitter-fill"></i></a>
+          <a href="https://www.linkedin.com/in/mohammad-sami-choudhari/"><i class="ri-linkedin-fill"></i></a>
+          <a href="https://github.com/iamMohSami"><i class="ri-github-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer-box2">
+        <div class="footer__col">
+          <h4>ABOUT US</h4>
+          <a href="#">Discover MediConnect</a>
+          <a href="#">Join us</a>
+          <a href="#">Give Feedback</a>
+        </div>
+      </div>
+      <div class="footer-box3">
+        <div class="footer__col">
+          <h4>EXPLORE MORE</h4>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">FAQ's</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom d-flex justify-content-center align-items-center">
+      Copyright © 2024 TECH TITANS. All rights reserved.
+      <!-- add current year date using php later  -->
+    </div>
+  </footer>
+</body>
+
+</html>

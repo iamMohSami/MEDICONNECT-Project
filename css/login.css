@@ -1,0 +1,78 @@
+/* body{
+    background-color: aqua;
+    background-image: url(../img/b3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/back.png"); /* Path to your background image */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%; /* Adjust as needed */
+}
+
+/* .container {
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 8px;
+  margin: 0; 
+  padding: 0;
+  box-shadow: 0 3px 5px 0 rgba(240, 240, 240, 0.3);
+  animation: transitionIn-Y-over 0.5s;
+}  */
+
+.container {
+  width: 45%;
+  background-color: white;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 8px;
+  margin: 5% auto; /* Adjust vertical alignment */
+  padding: 5px;
+  box-shadow: 0 3px 5px 0 rgba(240, 240, 240, 0.3);
+  animation: transitionIn-Y-over 0.5s;
+}
+td {
+  text-align: center;
+}
+.header-text {
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.sub-text {
+  font-size: 15px;
+  color: rgb(138, 138, 138);
+}
+
+.form-label {
+  color: rgb(44, 44, 44);
+  text-align: left;
+  font-size: 14px;
+}
+.label-td {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.hover-link1 {
+  font-weight: bold;
+}
+
+.hover-link1:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.login-btn {
+  /*margin-top: 15px;*/
+  margin-bottom: 15px;
+  width: 100%;
+}
